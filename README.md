@@ -12,7 +12,19 @@ Data source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## Methodology
 ### 1. Exploratory Data Analysis (EDA): 
-* 
-## Results and Discussion
+* Gain insights about two known feature and their relation to the fraud transaction
+### 2. Feature Selection
+* Check for Data correlation and multicollinearity between input variable 
+* Check for autocorrelation with the target variable
+* Access feature importance by Random Forest, AdaBoost and Gradient Boosting
+### 3. Preprocessing
+* Handle skew data with Yeo-Johnson transformations
+* Handle class imbalance with SMOTE, ADASYN
+### 4. Model Selection and Training
+* We choose five different algorithms for training, namely: MultiLayer Perception (MLP), Gaussian Naive Bayes (GNB), Random Forest (RFC), AdaBoost (ADA) and Gradient Boosting (GBC)
+* We also combine these algorithm to create an Ensemble Learning model by 5 different approach: prudential Multiple Consensus model (PMC), Majority Voting, Complete Agreement, Weighted Voting, Classifier Selection and Relational Approach
+### 5. Model Evaluation
+* 3 metric are chosen for evaluation are: Sensitivity, Fallout and AUC
 
-## Conclusion
+## Results and Conclusion
+
